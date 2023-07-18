@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ReadImageDemo</title>
+</head>
+<body>
+<input type="file" id="selectFiles" onchange="dealSelectFiles()" multiple webkitdirectory>
+<!-- <canvas id="myCanvas" width=1440 height=900></canvas> -->
+<div id="image-container">
+</div>
+ 
+<script>
+function dealSelectFiles(){
+/// get select files.
+var selectFiles = document.getElementById("selectFiles").files;
+console.log(selectFiles);
+  var container = document.getElementById("image-container");
+  for (var file of selectFiles) {
+  var image = document.createElement("img");
+  image.src = file.webkitRelativePath;
+  image.classList.add("image");
+  container.appendChild(image);
+}
+}
+</script>
+</body>
+</html>

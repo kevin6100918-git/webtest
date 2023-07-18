@@ -1,0 +1,22 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+div.box {
+    text-align: center;
+    margin: 10px;
+    margin-top: 0px;
+    background-color: white;
+    font-family: fantasy;
+    border: 2px solid black;
+}
+#BoxMargin {
+    border: 2px dashed black;
+}
+#BoxBorder {
+    background-color: yellow;
+}
+#BoxContent {
+    border: 2px dotted black;
+    padding-bottom: 100px;
+}

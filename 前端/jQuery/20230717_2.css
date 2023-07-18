@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+}
+
+td {
+    border-bottom: 1px solid black;
+}
+
+td#topic {
+    text-align: left;
+    margin: 50%;
+}

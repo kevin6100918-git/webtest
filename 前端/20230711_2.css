@@ -1,0 +1,49 @@
+div#mydiv {
+    width: 350px;
+    height: 200px;
+    background-color: palegreen;
+    margin: 100px 0px 0px 100px;
+    -webkit-animation: 'moveing' 3s linear infinite;
+    animation: 'moveing' 3s linear infinite;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-top: 150px;
+}
+
+img#front {
+    float: right;
+    margin-right: 20px;
+}
+img#back {
+    float: left;
+    margin-left: 20px;
+}
+
+img#front, img#back {
+    -webkit-animation: 'rotate1' 3s linear infinite;
+    animation: 'roate1' 3s linear infinite;
+}
+/* @-webkit-keyframes rotate1{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+} */
+@keyframes rotate1{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(480deg);}
+    100%{transform: rotate(0deg);}
+}
+
+@keyframes moveing {
+    0%{transform: translate(0%, 0%);}
+    50%{transform: translate(100%, 0%);}
+    100%{transform: translate(0%, 0%);}
+}
+/* @keyframes rotate2{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+} */

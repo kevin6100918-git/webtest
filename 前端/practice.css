@@ -1,0 +1,23 @@
+p, ul {
+    border: 2px solid;
+    border-color: blueviolet;
+}
+
+li {
+    border: 2px solid;
+    border-color: aqua;
+    margin: 10px 18px 30px 2px;/*Notrh East South West*/
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    border-color: salmon;
+}
+.block {
+    display: block;
+    border: 2px solid;
+    border-color: aqua;
+    margin: 1px;
+}

@@ -1,0 +1,54 @@
+div.chatOdd {
+    margin: 0px 80px 0px 80px;
+}
+
+p.otherUser {
+    float: left;
+    margin: 0px 0px 0px -10px;
+}
+p.selfUser {
+    float: right;
+    margin: 0px -10px 0px 0px;
+}
+
+div.arrowLeft {
+    border-color: transparent lightpink transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 0px;
+    height: 0px;
+    margin-top: 10px;
+    float: left;
+}
+
+div.arrowRight {
+    border-color: transparent transparent transparent lightblue;
+    border-width: 10px;
+    border-style: solid;
+    width: 0px;
+    height: 0px;
+    margin-top: 10px;
+    float: right;
+}
+
+div.boxLeft{
+    background-color: lightpink;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 30% 0px 19px;
+}
+
+div.boxRight{
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 19px 0px 30%;
+}
+
+div.inputbar{
+    border-top: 2px solid black;
+    margin-top: 20px;
+    padding: 2px;
+    width: 100%;
+}
+

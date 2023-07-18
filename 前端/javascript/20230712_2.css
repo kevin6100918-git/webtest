@@ -1,0 +1,12 @@
+img{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    /* cursor: url(s-man.png), auto; */
+    /* transform: translate(100px, 100px); */
+}
+
+p{
+    height: 30px;
+    font-size: x-large;
+}
